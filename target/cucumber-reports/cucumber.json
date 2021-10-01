@@ -1,0 +1,99 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-01T18:12:45.463Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1612000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.thezebra.StepDefinitions.BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Open thezebra Homepage",
+        "description": "",
+        "id": "acceptance-to-validate-all-relevant;open-thezebra-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 4706000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.thezebra.StepDefinitions.AfterACtions.TearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 406000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Home Page of The Zebra website",
+            "match": {
+              "location": "com.thezebra.StepDefinitions.GetCarInsuranceQuoteStepsDefs.i_am_on_the_home_page_of_the_zebra_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5009000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I scrolldown the Home Page",
+            "match": {
+              "location": "com.thezebra.StepDefinitions.HomepageElementsVerificationStepsDefs.i_scrolldown_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "All important elements are present",
+            "match": {
+              "location": "com.thezebra.StepDefinitions.HomepageElementsVerificationStepsDefs.all_important_elements_are_present()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Verify-Homepage"
+          },
+          {
+            "name": "@Verify-Homepage-Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Acceptance to validate all relevant",
+    "description": "  and important elements of thezebra Homepage are present.\n  In order to validate that all pages are working correct we\n  will do the acceptance testing",
+    "id": "acceptance-to-validate-all-relevant",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HomepageElementsVerification.feature",
+    "tags": [
+      {
+        "name": "@Verify-Homepage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
